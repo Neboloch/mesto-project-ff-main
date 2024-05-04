@@ -1,8 +1,8 @@
 
-import '../pages/index.css';
-import {initialCards} from './cards';
-import {createCard, deleteCard, likeImg} from "./card";
-import { openModal, closeModal, closeModalOverlay } from './modal';
+import './pages/index.css';
+import {initialCards} from "./scripts/cards";
+import {createCard, deleteCard, likeImg} from "./scripts/card";
+import {openModal, closeModal, closeModalOverlay} from './scripts/modal';
 
 // DOM узлы
 const cardContainer = document.querySelector('.places__list');
