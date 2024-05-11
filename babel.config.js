@@ -9,7 +9,8 @@ const presets = [
       },
   
 
-      useBuiltIns: "entry"
+      useBuiltIns: "entry",
+      corejs: 3
     }]
   ];
   
